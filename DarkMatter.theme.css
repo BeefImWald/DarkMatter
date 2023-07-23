@@ -1,57 +1,29 @@
 /**
- * @name BeefImWald Theme No Window Titlebar
- * @author Gibbu#1211
- * @version 2.0.0
- * @description Display your picture of choice with adjustable blur and brightness.
- * @source https://github.com/DiscordStyles/FrostedGlass
- * @invite ZHthyCw
- * @donate https://paypal.me/IanRGibson
- * @website https://gibbu.me
- * @authorId 174868361040232448
- * @BDEditor Frosted Glass
+ * @name Dark Matter
+ * @author Tropical#8908, Hammock#3110
+ * @version 3.0.0
+ * @description A cold, dark & frosty theme.
+ * @source https://github.com/DiscordStyles/DarkMatter/
+ * @BDEditor Dark Matter
 */
 
-@import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
+@import url('https://DiscordStyles.github.io/DarkMatter/src/base.css');
 @import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
 
 :root {
-  --background-image: url('https://i.imgur.com/XR5P4LA.jpg');
-  --background-image-blur: 8px;
-  --background-image-size: cover;
-  --background-image-position: center;
-  --popout-image: url('https://i.imgur.com/wuWHI7f.jpg');
-  --popout-image-blur: 1px;
-  --popout-image-size: cover;
-  --popout-image-position: center;
-  --overlay-image: url('https://i.imgur.com/dSCoSEm.jpg');
-  --overlay-image-blur: 1px;
-  --overlay-image-size: cover;
-  --overlay-image-position: center;
-  --home-button-image: url('https://i.imgur.com/IplCWUY.png');
-  --home-button-size: cover;
-  --home-button-position: center;
-  --serverlist-brightness: 0.3;
-  --left-brightness: 0.8;
-  --middle-brightness: 0.6;
-  --right-brightness: 0;
-  --overlay-brightness: 0.8;
-  --gradient-primary: 6,21,6;
-  --gradient-secondary: 18,68,22;
-  --link-colour: #6E6E6E;
-  --scrollbar-colour: rgba(255,255,255,0.05);
-  --gradient-direction: 300deg;
-  --tint-colour: 255,255,255;
-  --tint-brightness: 0.02;
-  --font: poppins;
-  --window-padding: 20px;
-  --window-roundness: 10px;
-  --update-notice-1: none;
+  --background-image: url('https://i.imgur.com/YP0nGlR.jpg');
+  --home-image: url('https://i.imgur.com/9suVKqu.png');
+  --accent: 163,163,163;
+  --accent-alt: 80,80,80;
+  --background-solid: #202020;
+  --background-solid-dark: #212121;
+  --background-solid-darker: #1B1B1B;
   --rs-small-spacing: 2px;
   --rs-medium-spacing: 2px;
   --rs-large-spacing: 2px;
-  --rs-small-width: 2px;
-  --rs-medium-width: 2px;
-  --rs-large-width: 2px;
+  --rs-small-width: 1.5px;
+  --rs-medium-width: 1.5px;
+  --rs-large-width: 1.5px;
   --rs-avatar-shape: 50%;
   --rs-online-color: #43b581;
   --rs-idle-color: #faa61a;
